@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.input-cards {
+  padding: 20px;
+}
+
+.top-10{
+  margin-top: 10px !important;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe, .video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+iframe, frame {
+  border: none;
+}
+
+.avatar-main {
+  margin: 0 10px;
+}
+
+.list-matches {
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.match-item {
+  cursor: pointer;
+}
+
+.match-item:hover {
+  background-color: #141E30;
+  color: white;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.langs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.lang-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-items > * {
+  margin: 0 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dash-text {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.nav-main{
+  flex-grow: 1;
+  margin-bottom: 10px;
+  color: white !important;
+}
+
+.txtHead{
+  flex-grow: 1;
+}
+
+.nav-main a{
+  color: white;
+}
+
+.MuiListItem-gutters {
+  margin: 6px 0;
+}
